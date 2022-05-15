@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;200,300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+}
+
+body {
+    height: 100vh;
+    background-color: #252c58;
+    display: flex;
+}
+
+.login-panel {
+    position: relative;
+    height: 70%;
+    width: 100%;
+    max-width: 475px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    row-gap: 2rem;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.title h1 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.title h2 {
+    font-weight: 300;
+}
+
+.login-container {
+    width: 85%;
+}
+
+.login-container h3 {
+    margin: 10px 0;
+    top: 0;
+    width: 100%;
+    font-weight: 300;
+}
+
+input {
+    border-radius: 2px;
+    display: block;
+    padding: 10px;
+    border: 0;
+    width: 100%;
+    height: 3rem;   
+}
+
+input[type="text"], input[type="password"] {
+    display: block;
+    background-color: rgba(0, 0, 0, .13);
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    border-radius: 25px;
+    background-color: #d7727c;
+    cursor: pointer;
+    font-weight: 500;
+}
